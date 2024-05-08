@@ -1,4 +1,4 @@
-package com.springboot.FoodDelivery;
+package com.fd.Food.Delivery;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
