@@ -17,8 +17,12 @@ repositories {
 }
 
 dependencies {
+	compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.32'
+	annotationProcessor 'org.projectlombok:lombok:1.18.32'
+
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: '3.2.5'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
